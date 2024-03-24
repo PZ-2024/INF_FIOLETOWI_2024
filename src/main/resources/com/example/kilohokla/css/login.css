@@ -1,0 +1,22 @@
+.text-field {
+    -fx-background-color: #91C499;
+    -fx-prompt-text-fill: rgba(0, 0, 0, 0.5);
+}
+
+.button {
+    -fx-background-color: #08415C;
+    -fx-font-weight: bold;
+    -fx-text-fill: black; 
+}
+
+.button:hover {
+    -fx-background-color: #08415C; /* zachowanie koloru tła takiego jak w stanie domyślnym */
+    -fx-text-fill: black; /* zachowanie koloru tekstu takiego jak w stanie domyślnym */
+    -fx-font-size: 40.0; /* zachowanie rozmiaru czcionki takiego jak w stanie domyślnym */
+}
+
+.button:pressed {
+    -fx-background-color: #08415C; /* zachowanie koloru tła takiego jak w stanie domyślnym */
+    -fx-text-fill: black; /* zachowanie koloru tekstu takiego jak w stanie domyślnym */
+    -fx-font-size: 40.0; /* zachowanie rozmiaru czcionki takiego jak w stanie domyślnym */
+}
